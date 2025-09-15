@@ -1,0 +1,155 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f3f6fa;
+    color: #222;
+}
+
+nav {
+    background: #1a237e;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.7em 0;
+}
+
+nav ul li {
+    margin: 0 2em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.05em;
+    letter-spacing: 0.5px;
+    transition: color 0.2s;
+}
+
+nav ul li a:hover {
+    color: #ffd600;
+}
+
+header {
+    padding: 2.5em 0 1.2em 0;
+    background: linear-gradient(90deg, #3949ab 60%, #1a237e 100%);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+    font-weight: 700;
+}
+
+.header-content h2 {
+    font-size: 1.4em;
+    margin-bottom: 0.4em;
+    font-weight: 400;
+    color: #ffd600;
+}
+
+.header-content p {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #e3e3e3;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 1em;
+}
+
+section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(60, 60, 100, 0.07);
+    margin-bottom: 2em;
+    padding: 1.5em 1.2em;
+}
+
+h2 {
+    color: #3949ab;
+    margin-top: 0;
+    font-size: 1.3em;
+    border-bottom: 1px solid #e0e7ef;
+    padding-bottom: 0.4em;
+    margin-bottom: 1em;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0.5em;
+}
+
+.skills-list li {
+    background: #e8eaf6;
+    color: #1a237e;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    font-weight: 500;
+}
+
+.project {
+    margin-bottom: 1.4em;
+}
+
+.project h3 {
+    color: #1a237e;
+    margin-bottom: 0.3em;
+    font-size: 1.1em;
+}
+
+.project p {
+    margin-top: 0;
+    color: #424242;
+}
+
+.contact-links a {
+    color: #1a237e;
+    text-decoration: underline;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.contact-links a:hover {
+    color: #ffd600;
+}
+
+footer {
+    text-align: center;
+    padding: 1.2em 0;
+    background: #1a237e;
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 1px;
+    margin-top: 2em;
+    border-top: 2px solid #3949ab;
+}
+
+@media (max-width: 650px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 0.7em 0;
+    }
+    main {
+        padding: 0 0.3em;
+    }
+    section {
+        padding: 1em 0.5em;
+    }
+}
